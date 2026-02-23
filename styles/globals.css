@@ -421,7 +421,19 @@ body {
     font-size: 32px;
   }
 
+  .telegram-section a {
+    display: block;
+    width: 100%;
+  }
+
   .glass-button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 15px;
+    font-size: 15px;
+  }
+
+  .hero button {
     width: 100%;
     box-sizing: border-box;
   }
