@@ -324,3 +324,105 @@ body {
   padding-top: 20px;
   border-top: 1px dashed rgba(225, 6, 0, 0.3);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .navbar a {
+    margin-left: 0 !important;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero-img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .products {
+    padding: 60px 20px;
+  }
+
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+  }
+
+  .about,
+  .contact {
+    padding: 60px 20px;
+  }
+
+  .about-page,
+  .contact-page {
+    padding: 40px 20px;
+  }
+
+  .about-content h1 {
+    font-size: 36px;
+  }
+
+  .about-content .subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .text-section {
+    padding: 25px;
+  }
+
+  .contact-content h1 {
+    font-size: 36px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .about-content h1,
+  .contact-content h1 {
+    font-size: 32px;
+  }
+
+  .glass-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
