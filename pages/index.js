@@ -40,7 +40,7 @@ export default function Home() {
           </div>
 
           <div className="card">
-            <img src="/card-demo.jpg" alt="Loans" />
+            <img src="/loan-demo.png" alt="Loans" />
             <h3>Loans</h3>
             <p>Smart borrowing for smart growth.</p>
           </div>
