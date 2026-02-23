@@ -1,13 +1,17 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className="container">
 
       <header className="navbar">
-        <img src="/logo.png" alt="Paygrade+" className="logo" />
+        <Link href="/">
+          <img src="/logo.png" alt="Paygrade+" className="logo" style={{ cursor: 'pointer' }} />
+        </Link>
         <nav>
           <a href="#about">About</a>
           <a href="#products">Products</a>
-          <a href="#contact">Contact</a>
+          <Link href="/contact" style={{ color: 'white', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>Contact</Link>
         </nav>
       </header>
 
