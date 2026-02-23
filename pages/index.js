@@ -52,15 +52,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="about">
-        <h2>About Paygrade+</h2>
-        <p>
-          Paygrade+ is a financial discovery platform designed for early
-          career professionals. We simplify financial products and help you
-          make informed decisions.
-        </p>
-      </section>
-
       <section id="contact" className="contact">
         <h2>Join Our Community</h2>
         <p>
