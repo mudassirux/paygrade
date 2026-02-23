@@ -63,7 +63,7 @@ export default function Home() {
           We operate via website and Telegram community. Approval subject
           to partner criteria.
         </p>
-        <button>Join Telegram</button>
+        <button className="glass-button">Join Telegram</button>
       </section>
 
       <footer className="footer">
