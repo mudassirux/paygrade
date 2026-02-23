@@ -249,3 +249,78 @@ body {
 .telegram-section p {
   margin-bottom: 20px;
 }
+
+/* About Page Styles */
+.about-page {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 180px);
+}
+
+.about-content {
+  max-width: 700px;
+  width: 100%;
+}
+
+.about-content h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.about-content .subtitle {
+  color: #e10600;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.text-section {
+  background: #111;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.text-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 15px;
+}
+
+.text-section p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.text-section p:last-child {
+  margin-bottom: 0;
+}
+
+.text-section ul {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.text-section li {
+  margin-bottom: 8px;
+}
+
+.highlight-text {
+  color: #e10600 !important;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed rgba(225, 6, 0, 0.3);
+}

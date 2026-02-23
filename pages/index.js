@@ -9,7 +9,7 @@ export default function Home() {
           <img src="/logo.png" alt="Paygrade+" className="logo" style={{ cursor: 'pointer' }} />
         </Link>
         <nav>
-          <a href="#about">About</a>
+          <Link href="/about" style={{ color: 'white', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>About</Link>
           <a href="#products">Products</a>
           <Link href="/contact" style={{ color: 'white', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>Contact</Link>
         </nav>

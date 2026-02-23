@@ -13,7 +13,7 @@ export default function Contact() {
                     <img src="/logo.png" alt="Paygrade+" className="logo" style={{ cursor: 'pointer' }} />
                 </Link>
                 <nav>
-                    <Link href="/#about" style={{ color: 'white', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>About</Link>
+                    <Link href="/about" style={{ color: 'white', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>About</Link>
                     <Link href="/#products" style={{ color: 'white', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>Products</Link>
                     <Link href="/contact" style={{ color: '#e10600', marginLeft: '25px', textDecoration: 'none', fontWeight: '500' }}>Contact</Link>
                 </nav>
